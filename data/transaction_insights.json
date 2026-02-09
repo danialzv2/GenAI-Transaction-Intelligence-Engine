@@ -1,25 +1,5 @@
 [
   {
-    "transaction_id": "TXN000010",
-    "insight_type": "TIME_BEHAVIOR_SHIFT",
-    "severity": "MEDIUM",
-    "facts": {
-      "time_bucket": "LATE_NIGHT",
-      "is_weekend": false,
-      "hour": 23
-    }
-  },
-  {
-    "transaction_id": "TXN000070",
-    "insight_type": "TIME_BEHAVIOR_SHIFT",
-    "severity": "MEDIUM",
-    "facts": {
-      "time_bucket": "LATE_NIGHT",
-      "is_weekend": false,
-      "hour": 23
-    }
-  },
-  {
     "transaction_id": "TXN000137",
     "insight_type": "TIME_BEHAVIOR_SHIFT",
     "severity": "MEDIUM",
@@ -36,8 +16,8 @@
     "facts": {
       "category": "Food",
       "amount": 146.98,
-      "usual_category_avg": 71.84,
-      "zscore": 2.19,
+      "usual_category_avg": 72.44,
+      "zscore": 2.17,
       "merchant": "MCDONALDS"
     }
   },
@@ -48,8 +28,8 @@
     "facts": {
       "category": "Food",
       "amount": 154.55,
-      "usual_category_avg": 71.84,
-      "zscore": 2.41,
+      "usual_category_avg": 72.44,
+      "zscore": 2.39,
       "merchant": "LOCAL CAFE"
     }
   },
@@ -60,8 +40,8 @@
     "facts": {
       "category": "Food",
       "amount": 141.64,
-      "usual_category_avg": 71.84,
-      "zscore": 2.03,
+      "usual_category_avg": 72.44,
+      "zscore": 2.01,
       "merchant": "GRAB*FOOD"
     }
   },
@@ -72,8 +52,8 @@
     "facts": {
       "category": "Shopping",
       "amount": 563.12,
-      "usual_category_avg": 287.1,
-      "zscore": 2.0,
+      "usual_category_avg": 286.13,
+      "zscore": 2.05,
       "merchant": "LAZADA"
     }
   },
@@ -104,8 +84,8 @@
     "facts": {
       "category": "Food",
       "amount": 144.39,
-      "usual_category_avg": 71.84,
-      "zscore": 2.11,
+      "usual_category_avg": 72.44,
+      "zscore": 2.09,
       "merchant": "LOCAL CAFE"
     }
   },
@@ -116,8 +96,8 @@
     "facts": {
       "category": "Food",
       "amount": 143.67,
-      "usual_category_avg": 71.84,
-      "zscore": 2.09,
+      "usual_category_avg": 72.44,
+      "zscore": 2.07,
       "merchant": "KFC"
     }
   },
@@ -128,8 +108,8 @@
     "facts": {
       "category": "Shopping",
       "amount": 636.29,
-      "usual_category_avg": 287.1,
-      "zscore": 2.53,
+      "usual_category_avg": 286.13,
+      "zscore": 2.59,
       "merchant": "SHOPEE"
     }
   },
@@ -144,14 +124,26 @@
     }
   },
   {
+    "transaction_id": "TXN000620",
+    "insight_type": "SPENDING_ANOMALY",
+    "severity": "MEDIUM",
+    "facts": {
+      "category": "Shopping",
+      "amount": 562.22,
+      "usual_category_avg": 286.13,
+      "zscore": 2.04,
+      "merchant": "UNIQLO"
+    }
+  },
+  {
     "transaction_id": "TXN000636",
     "insight_type": "SPENDING_ANOMALY",
     "severity": "MEDIUM",
     "facts": {
       "category": "Food",
       "amount": 146.65,
-      "usual_category_avg": 71.84,
-      "zscore": 2.18,
+      "usual_category_avg": 72.44,
+      "zscore": 2.16,
       "merchant": "KFC"
     }
   },
@@ -162,8 +154,8 @@
     "facts": {
       "category": "Shopping",
       "amount": 601.47,
-      "usual_category_avg": 287.1,
-      "zscore": 2.28,
+      "usual_category_avg": 286.13,
+      "zscore": 2.33,
       "merchant": "SHOPEE"
     }
   },
@@ -224,8 +216,8 @@
     "facts": {
       "category": "Food",
       "amount": 148.51,
-      "usual_category_avg": 71.84,
-      "zscore": 2.23,
+      "usual_category_avg": 72.44,
+      "zscore": 2.21,
       "merchant": "MCDONALDS"
     }
   },
@@ -247,6 +239,66 @@
       "time_bucket": "LATE_NIGHT",
       "is_weekend": false,
       "hour": 23
+    }
+  },
+  {
+    "transaction_id": "TXN000889",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "severity": "MEDIUM",
+    "facts": {
+      "time_bucket": "LATE_NIGHT",
+      "is_weekend": false,
+      "hour": 1
+    }
+  },
+  {
+    "transaction_id": "TXN000890",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "severity": "MEDIUM",
+    "facts": {
+      "time_bucket": "LATE_NIGHT",
+      "is_weekend": false,
+      "hour": 1
+    }
+  },
+  {
+    "transaction_id": "TXN000891",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "severity": "MEDIUM",
+    "facts": {
+      "time_bucket": "LATE_NIGHT",
+      "is_weekend": false,
+      "hour": 1
+    }
+  },
+  {
+    "transaction_id": "TXN000892",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "severity": "MEDIUM",
+    "facts": {
+      "time_bucket": "LATE_NIGHT",
+      "is_weekend": false,
+      "hour": 1
+    }
+  },
+  {
+    "transaction_id": "TXN000893",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "severity": "MEDIUM",
+    "facts": {
+      "time_bucket": "LATE_NIGHT",
+      "is_weekend": false,
+      "hour": 1
+    }
+  },
+  {
+    "transaction_id": "TXN000894",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "severity": "MEDIUM",
+    "facts": {
+      "time_bucket": "LATE_NIGHT",
+      "is_weekend": false,
+      "hour": 1
     }
   }
 ]
