@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GenAI Transaction Intelligence</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>💳 GenAI Transaction Intelligence</h1>
+    <p class="subtitle">
+      Explainable transaction insights powered by local LLaMA
+    </p>
+
+    <div class="card">
+      <label for="txnSelect">Select Transaction</label>
+      <select id="txnSelect"></select>
+
+      <button id="explainBtn">Explain Transaction</button>
+    </div>
+
+    <div class="card">
+      <h2>Transaction Details</h2>
+      <pre id="txnDetails">Select a transaction</pre>
+    </div>
+
+    <div class="card highlight">
+      <h2>AI Explanation</h2>
+      <p id="explanation">Waiting for explanation...</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

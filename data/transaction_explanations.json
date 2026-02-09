@@ -1,0 +1,117 @@
+[
+  {
+    "transaction_id": "TXN000010",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (11pm-12am) on a weekday, which is an unusual time for most transactions. Typically, people make transactions during regular business hours or early evening. This behavior may indicate a change in the user's normal spending habits."
+  },
+  {
+    "transaction_id": "TXN000070",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (11pm-12am) on a weekday, which is an unusual time for most transactions. Typically, people tend to make transactions during the day or early evening when they are more active and awake. This shift in timing may indicate a change in user behavior."
+  },
+  {
+    "transaction_id": "TXN000137",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (10 PM - 2 AM) on a weekday, which is unusual for this user's typical behavior. The user normally makes transactions during regular business hours or early evening. This shift in timing may indicate an exception to their usual routine."
+  },
+  {
+    "transaction_id": "TXN000145",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent a higher-than-usual amount on food, specifically $146.98 at McDonald's, which is more than double your average spend in this category ($71.84). This unusual spending pattern triggered the alert with a medium severity level. The merchant was McDonald's."
+  },
+  {
+    "transaction_id": "TXN000180",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent $154.55 at a local cafe, which is significantly more than your average spend in the \"Food\" category ($71.84). The amount spent was 2.41 standard deviations above the usual average, indicating it's a notable increase from your typical spending habits. This transaction may be worth reviewing to understand why you made this purchase."
+  },
+  {
+    "transaction_id": "TXN000239",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent $141.64 on food, which is significantly higher than your average spending in this category ($71.84). The amount is considered unusual based on past behavior, with a z-score of 2.03 indicating a moderate deviation from the norm. This transaction was made at GRAB*FOOD."
+  },
+  {
+    "transaction_id": "TXN000259",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent a higher amount than usual in the \"Shopping\" category, specifically $563.12 on Lazada, which is more than twice your average shopping expenditure of $287.10. The z-score of 2.0 indicates that this amount is significantly above what's typical for you. This transaction has been marked as medium severity due to its unusual nature."
+  },
+  {
+    "transaction_id": "TXN000272",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (11pm-12am) on a weekday, indicating a shift in the user's typical behavior. The user typically makes transactions during regular business hours, but this one deviates from that pattern. This unusual timing may be worth monitoring for potential security or behavioral changes."
+  },
+  {
+    "transaction_id": "TXN000286",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (10 PM - 6 AM), which is a non-traditional time for most transactions. It happened on a weekday, not a weekend. The exact hour was 10 PM."
+  },
+  {
+    "transaction_id": "TXN000338",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent $144.39 at a local cafe, which is significantly higher than your average spending in the \"Food\" category ($71.84). The amount is considered unusual due to its high z-score (2.11), indicating it's more than 2 standard deviations above the norm. This transaction may be worth reviewing to understand why you spent so much at this particular cafe."
+  },
+  {
+    "transaction_id": "TXN000445",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent a higher-than-usual amount on food, specifically $143.67 at KFC, which is more than double your average spend in the \"Food\" category ($71.84). The z-score of 2.09 indicates that this amount is significantly above what's typical for you. This transaction caught our attention because it deviates from your usual spending habits."
+  },
+  {
+    "transaction_id": "TXN000516",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent $636.29 on shopping, which is significantly higher than your average spending in this category ($287.10). The amount is considered unusual due to a z-score of 2.53, indicating it's more than two standard deviations above the norm. This purchase was made at SHOPEE."
+  },
+  {
+    "transaction_id": "TXN000538",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (10 PM - 6 AM) on a weekday, specifically at 10 PM. It's not related to the weekend timing, which might be unusual for this user's typical behavior. This could indicate a shift in their usual activity pattern."
+  },
+  {
+    "transaction_id": "TXN000636",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent $146.65 on food at KFC, which is significantly higher than your usual average spending in the \"Food\" category ($71.84). The amount spent was nearly twice the usual average, indicating a notable increase in this type of expense. This unusual pattern triggered the anomaly alert with a medium severity level."
+  },
+  {
+    "transaction_id": "TXN000669",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as unusual because you spent $601.47 on shopping, which is significantly higher than your average spending in this category ($287.10). The amount is considered medium-severity anomalous due to a z-score of 2.28. This purchase was made at SHOPEE."
+  },
+  {
+    "transaction_id": "TXN000705",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "The user tends to make transactions late at night, specifically around midnight. This behavior occurs on weekdays, not weekends. The transaction occurred at 11 PM (hour 23)."
+  },
+  {
+    "transaction_id": "TXN000729",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (11 PM - 1 AM) on a weekday, which is an unusual time for most banking activities. Typically, people tend to use their accounts more during the day or early evening. This specific timing may indicate a shift in the user's behavior compared to their usual patterns."
+  },
+  {
+    "transaction_id": "TXN000745",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (10 PM - 6 AM) on a weekday. The user made the transaction at 10 PM, which is considered late evening/early night time. This behavior is unusual for this time of day and may indicate an unexpected or out-of-pattern activity."
+  },
+  {
+    "transaction_id": "TXN000760",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (10 PM - 6 AM), specifically at 10 PM, on a weekday. It's not related to the weekend timing. This insight suggests that the user may be using their account during non-traditional working hours."
+  },
+  {
+    "transaction_id": "TXN000780",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (11 PM - 2 AM) on a weekday, which is an unusual time for most transactions. Typically, people make purchases or transfers during the day when they are more active. This behavior may indicate that the account holder is using their account at an unconventional time."
+  },
+  {
+    "transaction_id": "TXN000813",
+    "insight_type": "SPENDING_ANOMALY",
+    "explanation": "This transaction is flagged as an anomaly because you spent $148.51 at McDonald's, which is significantly higher than your average food spending of $71.84. The unusual amount triggered a medium-severity alert due to its 2.23 standard deviation from the norm. This suggests that this purchase may be out of character for your typical eating habits."
+  },
+  {
+    "transaction_id": "TXN000853",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (11 PM - 2 AM) on a weekday, indicating a shift in the user's typical behavior. The user typically makes transactions during regular business hours, but this one deviates from that pattern. This unusual timing may be worth investigating further."
+  },
+  {
+    "transaction_id": "TXN000855",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "explanation": "This transaction occurred during late night hours (11pm - 5am) on a weekday, not on the weekend. The user initiated this action at 11pm, which is considered late evening/nighttime behavior. This activity pattern may be unusual for the user's typical daily routine."
+  }
+]
