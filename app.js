@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://genai-transaction-api.onrender.com";
 
 const txnSelect = document.getElementById("txnSelect");
 const explainBtn = document.getElementById("explainBtn");
@@ -30,12 +30,9 @@ async function loadTransactions() {
 async function explainTransaction() {
   const txnId = txnSelect.value;
 
-  if (!txnId) {
-    alert("No transaction selected");
-    return;
-  }
+  if (!txnId) return;
 
-  explanation.textContent = "Analyzing transaction...";
+  explanation.textContent = "Analyzing transaction with GenAI...";
   txnDetails.textContent = "";
 
   const res = await fetch(`${API_URL}/transaction/${txnId}/explain`);
@@ -43,11 +40,52 @@ async function explainTransaction() {
 
   txnDetails.textContent = JSON.stringify(data.transaction, null, 2);
 
-  explanation.textContent = data.explanation
-    ? data.explanation.explanation
-    : "No unusual behavior detected.";
+  if (!data.explanations || data.explanations.length === 0) {
+    explanation.textContent = "No unusual behavior detected.";
+    return;
+  }
+
+  explanation.innerHTML = data.explanations
+    .map(e => `• ${e.explanation}`)
+    .join("<br><br>");
 }
+
 
 // -----------------------------
 explainBtn.addEventListener("click", explainTransaction);
 loadTransactions();
+
+
+const generateBtn = document.getElementById("generateBtn");
+
+// Generate New Transaction
+async function generateNewTransaction() {
+  generateBtn.disabled = true;
+  generateBtn.textContent = "Generating transaction...";
+
+  try {
+    const res = await fetch(`${API_URL}/generate-transaction`, {
+      method: "POST"
+    });
+
+    const data = await res.json();
+
+    if (data.status !== "OK") {
+      alert("Failed to generate transaction");
+      return;
+    }
+
+    // Reload transaction list
+    await loadTransactions();
+    explanation.textContent = "New transaction generated. Select it to explain.";
+    txnDetails.textContent = "";
+
+  } catch (err) {
+    alert("Backend error while generating transaction");
+  } finally {
+    generateBtn.disabled = false;
+    generateBtn.textContent = "➕ Generate New Transaction";
+  }
+}
+
+generateBtn.addEventListener("click", generateNewTransaction);

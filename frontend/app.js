@@ -1,4 +1,4 @@
-const API_URL = "https://genai-transaction-api.onrender.com";
+const API_URL = "http://127.0.0.1:8000";
 
 const txnSelect = document.getElementById("txnSelect");
 const explainBtn = document.getElementById("explainBtn");
