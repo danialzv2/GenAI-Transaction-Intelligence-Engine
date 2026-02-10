@@ -1,4 +1,6 @@
-GenAI Transaction Intelligence Engine
+Webiste POC: https://danialzv2.github.io/GenAI-Transaction-Intelligence-Engine/
+
+### GenAI Transaction Intelligence Engine
 
 Problem Statement
 - Digital banking users are presented with raw transaction data that lacks contextual explanation, leading to confusion, low trust, and high customer support dependency
