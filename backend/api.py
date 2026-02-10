@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import pandas as pd
 import json
 from fastapi.middleware.cors import CORSMiddleware
-from explainer_cloud import explain_insight
+from explainer import explain_insight
 import os
 import subprocess
 import sys
