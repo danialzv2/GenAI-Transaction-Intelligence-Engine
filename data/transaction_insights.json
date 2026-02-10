@@ -300,5 +300,15 @@
       "is_weekend": false,
       "hour": 1
     }
+  },
+  {
+    "transaction_id": "TXN000895",
+    "insight_type": "TIME_BEHAVIOR_SHIFT",
+    "severity": "MEDIUM",
+    "facts": {
+      "time_bucket": "LATE_NIGHT",
+      "is_weekend": false,
+      "hour": 2
+    }
   }
 ]
